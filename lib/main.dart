@@ -29,12 +29,12 @@ class _MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<_MyHomePage> {
-  // Setting cool initial color
+  // Initialize background color
   Color bgColor = Colors.orange;
 
   @override
   Widget build(BuildContext context) {
-    // Getting width of device
+    // Get the width of the device
     final double devWidth = MediaQuery.of(context).size.width;
 
     Widget preetyText(String txtVal, double size) => Text(
