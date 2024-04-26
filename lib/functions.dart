@@ -10,7 +10,7 @@ class ColorFunctions {
     final int greenVal = Random().nextInt(256);
     final int blueVal = Random().nextInt(256);
 
-    // assgning 
+    // assigning new randomly generated color to [randomColor] var
     final Color randomColor = Color.fromARGB(200, redVal, greenVal, blueVal);
     callBack(randomColor);
   }
